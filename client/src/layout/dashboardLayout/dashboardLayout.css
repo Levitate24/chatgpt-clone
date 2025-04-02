@@ -1,0 +1,18 @@
+.dashboard-layout {
+    display: flex;
+    gap: 50px;
+    height: 100%;
+    padding-top: 20px;
+    align-items: flex-start;
+    justify-content: flex-start;
+
+    .menu {
+        flex: 1;
+        height: 100%;
+    }
+    .content {
+        flex: 4;
+        background-color: #12101b;
+        height: 100%;
+    }
+}
